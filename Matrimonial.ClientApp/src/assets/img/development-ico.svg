@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_44087" data-name="Group 44087" transform="translate(-917 -1173)">
+    <circle id="Ellipse_345" data-name="Ellipse 345" cx="24" cy="24" r="24" transform="translate(917 1173)" fill="#2F3754" opacity="0.05"/>
+    <g id="g351" transform="translate(927.594 1184.594)">
+      <g id="g353" transform="translate(1.406 1.406)">
+        <g id="Group_43482" data-name="Group 43482" transform="translate(0)">
+          <g id="g361" transform="translate(0 4.724)">
+            <path id="path363" d="M-293.928-453.774h-8.416a2.931,2.931,0,0,1-2.988-2.871v-11.149a2.931,2.931,0,0,1,2.988-2.871h17.53a2.931,2.931,0,0,1,2.988,2.871v5.836" transform="translate(305.333 470.666)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+          <g id="g365" transform="translate(7.677)">
+            <path id="path367" d="M0-103.136v-2.677a2.038,2.038,0,0,1,2.038-2.038H6.115a2.038,2.038,0,0,1,2.038,2.038v2.677" transform="translate(0 107.852)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+          <g id="g369" transform="translate(0 10)">
+            <path id="path371" d="M0,0H23.506" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+          <g id="Group_43670" data-name="Group 43670" transform="translate(4.753 9)">
+            <g id="g373" transform="translate(14)">
+              <path id="path375" d="M0,0V2" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+            </g>
+            <g id="g373-2" data-name="g373">
+              <path id="path375-2" data-name="path375" d="M0,0V2" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+            </g>
+          </g>
+          <g id="g361-2" data-name="g361" transform="translate(0 4.724)">
+            <path id="path363-2" data-name="path363" d="M-293.231-453.774h8.416a2.931,2.931,0,0,0,2.988-2.871v-11.149a2.931,2.931,0,0,0-2.988-2.871h-17.53a2.931,2.931,0,0,0-2.988,2.871v5.836" transform="translate(305.333 470.666)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

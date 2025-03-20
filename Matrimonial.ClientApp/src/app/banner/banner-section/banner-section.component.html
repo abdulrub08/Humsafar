@@ -1,0 +1,27 @@
+<section class="banner-carousel" id="banner">
+  <div *ngFor="let banner of slides; let i = index" class="slide" [class.active]="i === currentSlideIndex">
+    <img [src]="banner.image" [alt]="banner.alt">
+    <div class="banner-content">
+      <h1>{{ banner.title }}</h1>
+      <p>{{ banner.description }}</p>
+      <button class="cta-button">Get Started</button>
+    </div>
+  </div>
+  <!-- Navigation buttons -->
+  <button class="prev" (click)="prevSlide()">&#10094;</button>
+  <button class="next" (click)="nextSlide()">&#10095;</button>
+  <!-- <div style="float: right;">
+      <div class="signup-form">
+        <h3>Join Us Today!</h3>
+        <p>Sign up to access exclusive resources, courses, and more!</p>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+          <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </div>
+    </div> -->
+</section>

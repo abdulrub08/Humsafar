@@ -1,0 +1,13 @@
+<svg id="Group_20796" data-name="Group 20796" xmlns="http://www.w3.org/2000/svg" width="24.29" height="24" viewBox="0 0 24.29 24">
+  <path id="Path_21938" data-name="Path 21938" d="M-623.158-899.3H-599.8" transform="translate(624.034 910.615)" fill="none" stroke="#ed4542" stroke-width="1.5"/>
+  <line id="Line_125" data-name="Line 125" y2="1.752" transform="translate(7.27 10.438)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Line_126" data-name="Line 126" y2="1.752" transform="translate(16.964 10.438)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Rectangle_4592" data-name="Rectangle 4592" transform="translate(6.223)" fill="#fff" stroke="#2F3754" stroke-width="1.5">
+    <path d="M2,0H9.787a2,2,0,0,1,2,2V6.915a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+    <path d="M2,.75H9.787A1.25,1.25,0,0,1,11.037,2V6.165a0,0,0,0,1,0,0H.75a0,0,0,0,1,0,0V2A1.25,1.25,0,0,1,2,.75Z" fill="none"/>
+  </g>
+  <g id="Rectangle_4591" data-name="Rectangle 4591" transform="translate(0 5.126)" fill="none" stroke="#2F3754" stroke-width="1.5">
+    <rect width="24.29" height="18.874" rx="2" stroke="none"/>
+    <rect x="0.75" y="0.75" width="22.79" height="17.374" rx="1.25" fill="none"/>
+  </g>
+</svg>

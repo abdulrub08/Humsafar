@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63655" data-name="Rectangle 63655" width="45.199" height="38.152" fill="none" stroke="#fff" stroke-width="0.3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_43500" data-name="Group 43500" transform="translate(-411 -237)">
+    <circle id="Ellipse_305" data-name="Ellipse 305" cx="30" cy="30" r="30" transform="translate(411 237)" fill="#fff" opacity="0"/>
+    <g id="Group_43669" data-name="Group 43669" transform="translate(418.279 247.924)" opacity="0">
+      <g id="Group_43668" data-name="Group 43668" clip-path="url(#clip-path)">
+        <path id="Path_88174" data-name="Path 88174" d="M43.146,16.6a1,1,0,0,1-.822,1.027L26.709,21.119V20.3a.971.971,0,0,0-1.027-1.027H19.518A.97.97,0,0,0,18.491,20.3v.822L2.877,17.627A1,1,0,0,1,2.055,16.6V10.024A.971.971,0,0,1,3.082,9H42.118a.971.971,0,0,1,1.027,1.027ZM24.654,25.433H20.546V21.325h4.109ZM1.027,22.352V35.706A3.027,3.027,0,0,0,4.11,38.788H41.091a3.027,3.027,0,0,0,3.082-3.082V18.878A3.073,3.073,0,0,0,45.2,16.6V10.024a3.027,3.027,0,0,0-3.082-3.081H3.082A3.027,3.027,0,0,0,0,10.024V16.6a3.072,3.072,0,0,0,1.027,2.279Zm41.091,0h0V35.706a.97.97,0,0,1-1.027,1.027H4.11a.971.971,0,0,1-1.027-1.027V19.739l15.409,3.435v3.287a.97.97,0,0,0,1.027,1.027h6.163a.97.97,0,0,0,1.027-1.027V23.173l15.409-3.435Z" transform="translate(0 -0.636)" fill="#2F3754" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
+        <path id="Path_88175" data-name="Path 88175" d="M29.187,0H18.914a3.027,3.027,0,0,0-3.081,3.082V4.109a1.027,1.027,0,1,0,2.054,0V3.082a.971.971,0,0,1,1.027-1.027H29.187a.971.971,0,0,1,1.027,1.027V4.109a1.027,1.027,0,1,0,2.054,0V3.082A3.026,3.026,0,0,0,29.187,0" transform="translate(-1.451)" fill="#ed4542" stroke="#fff" stroke-width="0.3" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="g351" transform="translate(421.594 248.594)">
+      <g id="g353" transform="translate(1.406 1.406)">
+        <g id="Group_43482" data-name="Group 43482">
+          <g id="g361" transform="translate(0 6.195)">
+            <path id="path363" d="M-287.825-443.678h-12.92a4.587,4.587,0,0,1-4.587-4.587v-17.813a4.587,4.587,0,0,1,4.587-4.587h26.911a4.587,4.587,0,0,1,4.587,4.587v9.324" transform="translate(305.333 470.666)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g365" transform="translate(13.043)">
+            <path id="path367" d="M0-101.668v-3.511a2.673,2.673,0,0,1,2.673-2.673H8.019a2.673,2.673,0,0,1,2.673,2.673v3.511" transform="translate(0 107.852)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="g369" transform="translate(0.043 15.443)">
+            <path id="path371" d="M0,0H36.085" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_43671" data-name="Group 43671" transform="translate(-0.077)">
+            <g id="g373" transform="translate(9.119 15.446)">
+              <path id="path375" d="M0,0V3.823" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g373-2" data-name="g373" transform="translate(28.119 15.446)">
+              <path id="path375-2" data-name="path375" d="M0,0V3.823" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="g361-2" data-name="g361" transform="translate(0 6.195)">
+            <path id="path363-2" data-name="path363" d="M-286.755-443.678h12.92a4.587,4.587,0,0,0,4.587-4.587v-17.813a4.587,4.587,0,0,0-4.587-4.587h-26.911a4.587,4.587,0,0,0-4.587,4.587v9.324" transform="translate(305.333 470.666)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
