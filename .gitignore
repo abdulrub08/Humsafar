@@ -6,6 +6,44 @@
 ## has more thorough IDE-specific entries.
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
+# .NET Core build and config files
+bin/
+obj/
+*.log
+*.user
+*.suo
+*.cache
+*.pdb
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.csproj.user
+*.sln.docstates
+*.psess
+*.pidb
+.DS_Store
+
+# User-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rider / JetBrains
+*.sln.iml
+*.sln.dotSettings
+*.ReSharper/
+
+# Environment files
+.env
+.env.local
+secrets.json
+
+# ASP.NET Identity
+appsettings.Development.json
+appsettings.Production.json
+appsettings.json
 
 # Build results
 [Dd]ebug/
@@ -52,3 +90,35 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Compiled output
+dist/
+out-tsc/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular environment files
+src/environments/environment.ts
+src/environments/environment.prod.ts
