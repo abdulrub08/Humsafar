@@ -1,0 +1,5 @@
+﻿Add-Migration InitialCreate -Context MatrimonialDbContext -Project Matrimonial.DbContext -StartupProject Matrimonial.API
+update-database InitialCreate -Context MatrimonialDbContext -Project Matrimonial.DbContext -StartupProject Matrimonial.API
+
+Add-Migration DropAndRecreate -Context NikahAuthDbContext -Project Matrimonial.DbContext -StartupProject Matrimonial.API
+update-database DropAndRecreate -Context NikahAuthDbContext -Project Matrimonial.DbContext -StartupProject Matrimonial.API

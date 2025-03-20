@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Projects\PublishWeb\Humsafar</_PublishTargetUrl>
+    <History>True|2025-03-19T00:24:06.5826774Z||;True|2025-03-19T05:49:20.0357771+05:30||;False|2025-03-19T05:48:55.8919452+05:30||;True|2025-03-19T05:40:38.2262170+05:30||;False|2025-03-19T05:39:38.4759880+05:30||;True|2025-03-19T05:11:02.7331393+05:30||;True|2025-03-19T05:09:44.0257223+05:30||;True|2025-03-19T04:44:17.6022383+05:30||;True|2025-03-19T04:30:49.2974830+05:30||;True|2025-03-19T04:15:30.3708334+05:30||;True|2025-03-19T04:14:57.2807345+05:30||;True|2025-03-19T04:13:58.5544272+05:30||;True|2025-03-19T04:07:58.5504185+05:30||;True|2025-03-19T04:01:36.3281508+05:30||;True|2025-03-17T02:59:28.1725131+05:30||;True|2025-03-17T02:41:02.1230474+05:30||;True|2025-03-17T02:14:00.6679643+05:30||;True|2025-03-17T01:09:01.9063418+05:30||;True|2025-03-17T00:56:44.4392843+05:30||;False|2025-03-17T00:50:22.1918983+05:30||;True|2025-03-17T00:29:09.0631286+05:30||;True|2025-03-17T00:28:04.6021110+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AuthConnection">
+      <Value>Data Source=AuthServiceDB.mssql.somee.com%3bUser ID=abdulrub08%3bPassword=Abdul!1rub08%3bConnect Timeout=30%3bEncrypt=True%3bTrust Server Certificate=True%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

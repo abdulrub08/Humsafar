@@ -1,0 +1,20 @@
+﻿public class User
+{
+    public int UserId { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Gender { get; set; }
+    public DateTime DateOfBirth { get; set; }
+    public string Email { get; set; }
+    public string Phone { get; set; }
+    public string Address { get; set; }
+    public string PasswordHash { get; set; }
+    public string AccountStatus { get; set; } = "Active";
+    public string Role { get; set; } = "User";
+    public DateTime? LastLogin { get; set; }
+    public DateTime AccountCreated { get; set; } = DateTime.UtcNow;
+    public bool EmailVerified { get; set; }
+    public bool PhoneVerified { get; set; }
+
+    public Profile Profile { get; set; }
+}
