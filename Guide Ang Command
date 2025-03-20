@@ -1,0 +1,25 @@
+Angular Command
+// Install Angular CLI and create a new project
+// ng new angular18-clean-arch --routing --style=scss
+// cd angular18-clean-arch
+// ng add @angular/material (Optional UI framework)
+
+// Generate Core and Shared modules
+// ng g m core
+// ng g m shared
+
+// Generate Features Modules
+// ng g m features/auth --routing
+// ng g m features/home --routing
+
+// Generate Components
+// ng g c features/auth/login
+// ng g c features/auth/signup
+// ng g c features/home/landing
+
+// Generate Services
+// ng g s core/services/auth
+// ng g s core/services/http
+
+// Generate Auth Guard
+// ng g g core/guards/auth
