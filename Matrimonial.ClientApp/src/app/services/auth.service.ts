@@ -30,7 +30,7 @@ export class AuthService {
   }
 
   login(token: string) { localStorage.setItem('token', token); }
-  logout() { localStorage.removeItem('token'); this.router.navigate(['/login']); }
+  //logout() { localStorage.removeItem('token'); this.router.navigate(['/login']); }
   isAuthenticated(): boolean { return !!localStorage.getItem('token'); }
   getToken(): string | null { return localStorage.getItem('token'); }
 }

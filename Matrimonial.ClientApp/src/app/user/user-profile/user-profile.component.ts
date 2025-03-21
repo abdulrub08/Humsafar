@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
-import { HeaderSectionComponent } from "../../header/header-section/header-section.component";
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { SharedModule } from '../../shared/shared.module';
-import { LeftnavigationComponent } from "../../landingPage/lefnav/leftnavigation/leftnavigation.component";
-import { CompleateInfoComponent } from "../../landingPage/rightnav/compleate-info/compleate-info.component";
 @Component({
   selector: 'app-user-profile',
   standalone: true,
-  imports: [HeaderSectionComponent, SharedModule, LeftnavigationComponent, CompleateInfoComponent],
   templateUrl: './user-profile.component.html',
   styleUrl: './user-profile.component.css'
 })

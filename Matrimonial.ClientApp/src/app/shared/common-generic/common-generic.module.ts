@@ -9,9 +9,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 
-
-
-
 @NgModule({
   declarations: [],
   imports: [
@@ -22,7 +19,10 @@ import { MatIconModule } from '@angular/material/icon';
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    NgIf,
+    NgFor,
+    NgSwitch
   ],
   exports: [
     CommonModule,
@@ -38,4 +38,4 @@ import { MatIconModule } from '@angular/material/icon';
     NgSwitch
   ]
 })
-export class SharedModule { }
+export class CommonGenericModule { }

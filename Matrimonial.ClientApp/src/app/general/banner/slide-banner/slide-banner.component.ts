@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { Slide } from '../../../model/app.slide';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-slide-banner',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './slide-banner.component.html',
   styleUrl: './slide-banner.component.css'
 })
