@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_44081" data-name="Group 44081" transform="translate(-436 -477)">
+    <circle id="Ellipse_345" data-name="Ellipse 345" cx="24" cy="24" r="24" transform="translate(436 477)" fill="#2F3754" opacity="0.05"/>
+    <g id="Group_44015" data-name="Group 44015" transform="translate(449.37 490.37)">
+      <g id="Group_44016" data-name="Group 44016" transform="translate(0 0)">
+        <path id="Path_88311" data-name="Path 88311" d="M11.1,14.658a2.316,2.316,0,0,1,0,3.267L6.828,22.2a2.3,2.3,0,0,1-1.634.677h0A2.3,2.3,0,0,1,3.56,22.2L1.425,20.06a2.313,2.313,0,0,1,0-3.267l4.269-4.27a2.315,2.315,0,0,1,3.269,0" transform="translate(-0.119 -1.887)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Path_88312" data-name="Path 88312" d="M12.523,8.964a2.31,2.31,0,0,1,0-3.267l4.268-4.27a2.311,2.311,0,0,1,3.269,0l2.135,2.135a2.312,2.312,0,0,1,0,3.268L17.924,11.1a2.308,2.308,0,0,1-3.268,0" transform="translate(-1.887 -0.119)" fill="none" stroke="#2F3754" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_237" data-name="Line 237" x1="0.859" y1="3.431" transform="translate(6.876 0.836)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_238" data-name="Line 238" x1="2.738" y1="2.68" transform="translate(2.954 2.937)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_239" data-name="Line 239" x1="3.632" y1="0.989" transform="translate(0.642 6.722)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_240" data-name="Line 240" x2="3.633" y2="0.89" transform="translate(17.337 14.087)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_241" data-name="Line 241" x2="2.71" y2="2.657" transform="translate(15.972 16.071)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_242" data-name="Line 242" x2="0.908" y2="3.563" transform="translate(13.948 17.41)" fill="none" stroke="#ed4542" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

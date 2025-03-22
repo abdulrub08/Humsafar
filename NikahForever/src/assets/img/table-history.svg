@@ -1,0 +1,21 @@
+<svg id="Component_4_85" data-name="Component 4 – 85" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63541" data-name="Rectangle 63541" width="22" height="22" fill="none" stroke="#ED4542" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19412" data-name="Group 19412" transform="translate(-1649 -405)">
+    <path id="Path_24329" data-name="Path 24329" d="M19.5,0A19.5,19.5,0,1,1,0,19.5,19.5,19.5,0,0,1,19.5,0Z" transform="translate(1649 405)" fill="#ED4542" opacity="0.1"/>
+  </g>
+  <g id="Group_19609" data-name="Group 19609" transform="translate(8 9)">
+    <g id="Group_19608" data-name="Group 19608" clip-path="url(#clip-path)">
+      <path id="Path_24362" data-name="Path 24362" d="M19.806,15.744A10.011,10.011,0,0,1,1.356,8.291" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_24363" data-name="Path 24363" d="M2.181,6.282a10,10,0,0,1,18.456,7.4" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_24364" data-name="Path 24364" d="M6.263,6.263H2.052V2.052" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_24365" data-name="Path 24365" d="M15.738,15.736h4.211v4.211" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_24366" data-name="Path 24366" d="M9.947,11A1.053,1.053,0,1,1,11,12.053,1.052,1.052,0,0,1,9.947,11Z" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_88" data-name="Line 88" x1="3.976" y2="3.976" transform="translate(6.263 11.761)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_89" data-name="Line 89" y2="6.842" transform="translate(11 3.105)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

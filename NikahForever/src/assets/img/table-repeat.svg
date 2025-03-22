@@ -1,0 +1,13 @@
+<svg id="Component_3_76" data-name="Component 3 – 76" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <circle id="Ellipse_31" data-name="Ellipse 31" cx="19.5" cy="19.5" r="19.5" fill="#ED4542" opacity="0.1"/>
+  <g id="Group_44219" data-name="Group 44219" transform="translate(8.163 8.5)">
+    <g id="Group_44220" data-name="Group 44220">
+      <path id="Path_88407" data-name="Path 88407" d="M5.944,3.7V1" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_88408" data-name="Path 88408" d="M18.978,2.124h1.8a.9.9,0,0,1,.9.9V20.1a.9.9,0,0,1-.9.9H1.9a.9.9,0,0,1-.9-.9V3.023a.9.9,0,0,1,.9-.9Z" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_281" data-name="Line 281" x2="4.045" transform="translate(13.135 2.124)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_88409" data-name="Path 88409" d="M17.18,3.7V1" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_88410" data-name="Path 88410" d="M15.427,10.744l2.16,2.521,2.158-2.521" transform="matrix(0.978, -0.208, 0.208, 0.978, -3.209, 3.278)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_88411" data-name="Path 88411" d="M16.489,11.966c.011-.133.018-.267.018-.4A5,5,0,1,0,15.042,15.1" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

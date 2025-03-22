@@ -1,0 +1,16 @@
+<svg id="Component_4_107" data-name="Component 4 – 107" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="Group_19412" data-name="Group 19412" transform="translate(-1649 -405)">
+    <path id="Path_24329" data-name="Path 24329" d="M19.5,0A19.5,19.5,0,1,1,0,19.5,19.5,19.5,0,0,1,19.5,0Z" transform="translate(1649 405)" fill="#ED4542" opacity="0.1"/>
+  </g>
+  <g id="Group_44259" data-name="Group 44259" transform="translate(8.571 9.25)">
+    <g id="Group_44260" data-name="Group 44260">
+      <path id="Path_88414" data-name="Path 88414" d="M8.178,20V17.935c0-1.363-2.423-2.063-3.713-2.063S.75,16.572.75,17.935V20" transform="translate(0.677 -0.113)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_88415" data-name="Path 88415" d="M4.839,13.657a1.582,1.582,0,0,0,1.65-1.65v-.826a1.582,1.582,0,0,0-1.65-1.65,1.582,1.582,0,0,0-1.65,1.65v.826A1.582,1.582,0,0,0,4.839,13.657Z" transform="translate(0.301 0.865)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_88416" data-name="Path 88416" d="M16.848,6.116l-4.39,3.9L10.507,7.092" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_282" data-name="Line 282" y2="1.951" transform="translate(12.457 1.726)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_283" data-name="Line 283" x1="1.951" transform="translate(18.311 9.531)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_284" data-name="Line 284" y1="1.951" transform="translate(12.457 15.384)" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_88417" data-name="Path 88417" d="M3.8,8.067a8.778,8.778,0,1,1,7.2,10.122" fill="none" stroke="#ED4542" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

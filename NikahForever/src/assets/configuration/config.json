@@ -1,0 +1,53 @@
+{
+  "HostConfig": [
+    {
+      "hostPath": "localhost:4200",
+      "subVD": "",
+      "apiUrl": "https://localhost:44312/",
+      "hideControl": false,
+      "homePageUrl": "home",
+      "homelogoUrl": "https://digirecruitnet.com/assets/img/digi/logo.png"
+    },
+    {
+      "hostPath": "https://nikah.somee.com",
+      "subVD": "",
+      "apiUrl": "https://humsafar.somee.com/",
+      "hideControl": true,
+      "homePageUrl": "index",
+      "homelogoUrl": "https://talentonlease.com/assets/img/tol-logo.svg"
+    },
+    {
+      "hostPath": "nikah.somee.com",
+      "subVD": "",
+      "apiUrl": "https://humsafar.somee.com/",
+      "hideControl": false,
+      "homePageUrl": "home",
+      "homelogoUrl": "https://talentonlease.com/assets/img/tol-logo.svg"
+    },
+    {
+      "hostPath": "talentonlease.com",
+      "subVD": "",
+      "apiUrl": "https://api.talentonlease.com/",
+      "hideControl": false,
+      "homePageUrl": "home",
+      "homelogoUrl": "https://talentonlease.com/assets/img/tol-logo.svg"
+    },
+    {
+      "hostPath": "digirecruitnet.com",
+      "subVD": "",
+      "apiUrl": "https://api.digirecruitnet.com/",
+      "hideControl": true,
+      "homePageUrl": "index",
+      "homelogoUrl": "https://digirecruitnet.com/assets/img/digi/logo.png"
+    },
+    {
+      "hostPath": "dev.talentonlease.com",
+      "subVD": "",
+      "apiUrl": "https://devapi.talentonlease.com/",
+      "hideControl": false,
+      "homePageUrl": "home",
+      "homelogoUrl": "https://talentonlease.com/assets/img/tol-logo.svg"
+    }
+  ]
+}
+

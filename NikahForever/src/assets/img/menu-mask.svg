@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="166" viewBox="0 0 224 166">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63792" data-name="Rectangle 63792" width="224" height="166" transform="translate(1 645)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_63657" data-name="Rectangle 63657" width="316" height="237" transform="translate(95.5 651)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_46" data-name="Mask Group 46" transform="translate(-1 -645)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_43" data-name="Mask Group 43" transform="translate(-95.5 -27)" opacity="0.1" clip-path="url(#clip-path-2)">
+      <g id="Group_43683" data-name="Group 43683" transform="translate(-3943.713 6930.807) rotate(45)">
+        <g id="Rectangle_4597" data-name="Rectangle 4597" transform="translate(-1390.92 -7337.222)" fill="none" stroke="#2F3754" stroke-width="2">
+          <rect width="37.52" height="93.799" rx="18.76" stroke="none"/>
+          <rect x="1" y="1" width="35.52" height="91.799" rx="17.76" fill="none"/>
+        </g>
+        <g id="Ellipse_215" data-name="Ellipse 215" transform="translate(-1390.92 -7381)" fill="none" stroke="#ed4542" stroke-width="2">
+          <circle cx="18.76" cy="18.76" r="18.76" stroke="none"/>
+          <circle cx="18.76" cy="18.76" r="17.76" fill="none"/>
+        </g>
+        <g id="Rectangle_4597-2" data-name="Rectangle 4597" transform="translate(-1459.71 -7262.191)" fill="none" stroke="#2F3754" stroke-width="2">
+          <rect width="37.52" height="93.799" rx="18.76" stroke="none"/>
+          <rect x="1" y="1" width="35.52" height="91.799" rx="17.76" fill="none"/>
+        </g>
+        <g id="Ellipse_215-2" data-name="Ellipse 215" transform="translate(-1459.71 -7162.139)" fill="none" stroke="#ed4542" stroke-width="2">
+          <circle cx="18.76" cy="18.76" r="18.76" stroke="none"/>
+          <circle cx="18.76" cy="18.76" r="17.76" fill="none"/>
+        </g>
+        <g id="Rectangle_4597-3" data-name="Rectangle 4597" transform="translate(-1403.429 -7305.954) rotate(90)" fill="none" stroke="#2F3754" stroke-width="2">
+          <rect width="37.52" height="93.799" rx="18.76" stroke="none"/>
+          <rect x="1" y="1" width="35.52" height="91.799" rx="17.76" fill="none"/>
+        </g>
+        <g id="Ellipse_215-3" data-name="Ellipse 215" transform="translate(-1503.481 -7305.954) rotate(90)" fill="none" stroke="#ed4542" stroke-width="2">
+          <circle cx="18.76" cy="18.76" r="18.76" stroke="none"/>
+          <circle cx="18.76" cy="18.76" r="17.76" fill="none"/>
+        </g>
+        <g id="Rectangle_4597-4" data-name="Rectangle 4597" transform="translate(-1322.135 -7237.175) rotate(90)" fill="none" stroke="#2F3754" stroke-width="2">
+          <rect width="37.52" height="93.799" rx="18.76" stroke="none"/>
+          <rect x="1" y="1" width="35.52" height="91.799" rx="17.76" fill="none"/>
+        </g>
+        <g id="Ellipse_215-4" data-name="Ellipse 215" transform="translate(-1278.367 -7237.175) rotate(90)" fill="none" stroke="#ed4542" stroke-width="2">
+          <circle cx="18.76" cy="18.76" r="18.76" stroke="none"/>
+          <circle cx="18.76" cy="18.76" r="17.76" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
