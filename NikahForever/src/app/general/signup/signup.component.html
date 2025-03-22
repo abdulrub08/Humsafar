@@ -1,0 +1,55 @@
+<div class="card shadow">
+    <div class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary-nikah">Join Us Today! </h6>
+    </div>
+    <div class="card-body">
+      <p>Sign up to access exclusive resources, courses, and more!</p>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Email</mat-label>
+          <input matInput type="text" formControlName="fullname" />
+          <mat-error *ngIf="signupForm.get('fullname')?.hasError('required')">
+            fullname is required
+          </mat-error>
+          <mat-error *ngIf="signupForm.get('email')?.hasError('email')">Enter a valid email</mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" formControlName="email" />
+          <mat-error *ngIf="signupForm.get('email')?.hasError('required')">
+            Email is required
+          </mat-error>
+          <mat-error *ngIf="signupForm.get('email')?.hasError('email')">Enter a valid email</mat-error>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" formControlName="password" />
+          <mat-error *ngIf="signupForm.get('password')?.hasError('required')">
+            Password is required
+          </mat-error>
+          <mat-error *ngIf="signupForm.get('password')?.hasError('minlength')">
+            Minimum 6 characters required
+          </mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Mobile Number</mat-label>
+          <input matInput type="number" maxlength="10" formControlName="mobileno" />
+          <mat-error *ngIf="signupForm.get('mobileno')?.hasError('required')">
+            Mobile Number is required
+          </mat-error>
+        </mat-form-field>
+        <div class="clear"></div>
+        <div class="button-group">
+          <button mat-raised-button color="primary" type="submit">Sign Up</button>
+        </div>
+      </form>
+      <p style="margin-top: 10px;margin-bottom: 10px;padding-left: 15%;">Already have an account? <a href="#">Log In</a></p>
+      <div class="login-container">
+        <button (click)="loginGoogle()" class="google-btn">Login with Google</button>
+        <button (click)="loginFacebook()" class="facebook-btn">Login with Facebook</button>
+      </div>
+    </div>
+  </div>
+    
