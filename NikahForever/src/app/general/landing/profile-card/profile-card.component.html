@@ -1,0 +1,22 @@
+<!-- Profile Cards Section -->
+<section class="profiles" id="profiles">
+    <h2>Featured Profiles</h2>
+    <div class="profile-cards">
+      <div class="profile-card" *ngFor="let profile of profiles;let i = index">
+        <img [src]="profile.image" [alt]="profile.alt">
+        <h3>{{profile.name}}</h3>
+        <p>Age: {{profile.age}} | Location: {{profile.location}}</p>
+        <button class="profile-button">View Profile</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories Section -->
+  <section class="success-stories bg-gray-100" id="story">
+    <h2>Success Stories</h2>
+    <div class="story-cards">
+      <div class="story-card bg-gradient-success" *ngFor="let story Of stories">
+        <p>{{story.desc}}</p>
+      </div>
+    </div>
+  </section>
