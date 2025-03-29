@@ -1,0 +1,27 @@
+<div class="relative profile-menu-container">
+    <!-- Profile Image -->
+    <div
+      class="rounded-full cursor-pointer"
+      (mouseenter)="showMenu()"
+    >
+      <img
+        src="../../../../assets/img/profileicon.png"
+        alt="Profile"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  
+    <!-- Dropdown Menu -->
+    <div
+      *ngIf="isMenuVisible"
+      class="absolute right-0 mt-2 w-48 bg-white border border-gray-300 shadow-lg rounded-lg"
+      (mouseleave)="hideMenu()"
+    >
+      <ul>
+        <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer" (click)="goToAccount()">Account</li>
+        <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer" (click)="goToSettings()">Settings</li>
+        <li class="px-4 py-2 hover:bg-red-100 text-red-500 cursor-pointer" (click)="logout()">Logout</li>
+      </ul>
+    </div>
+  </div>
+  

@@ -1,8 +1,13 @@
 import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing/landing.component';
 import { NgModule } from '@angular/core';
+import { ProfileCardComponent } from './landing/profile-card/profile-card.component';
 
-const genRoutes: Routes = [{ path: '', component: LandingComponent }];
+const genRoutes: Routes = [
+  { path: '', component: LandingComponent },
+  { path: 'login', component: LandingComponent },
+  { path: 'profiles/:cat', component: ProfileCardComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forChild(genRoutes)],

@@ -1,14 +1,18 @@
 <!-- Profile Cards Section -->
 <section class="profiles" id="profiles">
     <h2>Featured Profiles</h2>
+   
     <div class="profile-cards">
-      <div class="profile-card" *ngFor="let profile of profiles;let i = index">
+      <div class="profile-card" *ngFor="let profile of displayedProfiles;let i = index">
         <img [src]="profile.image" [alt]="profile.alt">
         <h3>{{profile.name}}</h3>
         <p>Age: {{profile.age}} | Location: {{profile.location}}</p>
         <button class="profile-button">View Profile</button>
       </div>
     </div>
+    <!-- View All Button -->
+     <a class="btn next-btn" [routerLink]="['/profiles', '123']" style="margin-top: 15px;" *ngIf="this.cat_rec == '' || this.cat_rec == null">View All</a>
+    <!-- <button class="next-btn" (click)="ViewAll()" [disabled]="(pageIndex + 1) * itemsPerPage >= profiles.length">View All</button> -->
   </section>
 
   <!-- Success Stories Section -->

@@ -1,52 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Profile, SuccessStories } from '../../../model/Profile';
-import { NgFor } from '@angular/common';
+import { CommonGenericModule } from '../../../shared/common-generic/common-generic.module';
+import { ProfileListService } from '../../../services/profile-list.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-profile-card',
   standalone: true,
-  imports: [NgFor],
+  imports: [CommonGenericModule],
   templateUrl: './profile-card.component.html',
   styleUrl: './profile-card.component.css'
 })
-export class ProfileCardComponent {
-  profiles: Profile[] = [
-    {
-      image: 'assets/profiles/profile2.jpg',
-      alt:'Profile 1',
-      age:24,
-      location:'New York',
-      name:'John Doe'
-    },
-    {
-      image: 'assets/profiles/profile3.jpg',
-      alt:'Profile 2',
-      age:26,
-      location:'San Francisco',
-      name:'Jane Smith'
-    },
-    {
-      image: 'assets/profiles/profile2.png',
-      alt:'Profile 3',
-      age:30,
-      location:'Chicago',
-      name:'Raj Patel'
-    },
-    {
-      image: 'assets/profiles/profile10.jpg',
-      alt:'Profile 2',
-      age:26,
-      location:'San Francisco',
-      name:'Ayush Smith'
-    },
-    {
-      image: 'assets/profiles/profile11.jpg',
-      alt:'Profile 3',
-      age:30,
-      location:'Chicago',
-      name:'Raja Khan'
-    }
-  ];
+export class ProfileCardComponent implements OnInit {
+  profiles: Profile[] = [];
+  cat_rec:string| null = null;
   stories: SuccessStories[] = [
     {
       desc:'"We found each other on Matrimonial Connect and it was love at first sight!" - Sarah & John'
@@ -58,4 +25,33 @@ export class ProfileCardComponent {
       desc:'"A wonderful experience with a happy ending. Thank you!" - Emily & Ryan'
     }
   ]
+  displayedProfiles: any[] = [];
+  pageIndex: number = 0;
+  itemsPerPage: number = 4;
+  constructor(private profile_scv: ProfileListService,private route: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    // Capture the 'cat' parameter from the route
+    this.route.paramMap.subscribe(params => {
+      this.cat_rec = params.get('cat');
+    });
+    this.profiles = this.profile_scv.getProfiles().slice();
+    this.updateDisplayedProfiles();
+  }
+  updateDisplayedProfiles() {
+    if(this.cat_rec == '' || this.cat_rec == null){
+    const start = this.pageIndex * this.itemsPerPage;
+    const end = start + this.itemsPerPage;
+    this.displayedProfiles = this.profiles.slice(start, end);
+    }else{
+    //   const start = this.pageIndex * this.itemsPerPage;
+    // const end = start + this.itemsPerPage;
+    this.displayedProfiles = this.profiles.slice(1, this.profiles.length);
+    }
+  }
+  ViewAll() {
+    //profiles
+    
+  }
 }

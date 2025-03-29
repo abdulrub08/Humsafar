@@ -1,8 +1,18 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
-
-import { routes } from './app.routes';
+import { ApplicationConfig } from '@angular/core';
+import { provideRouter, Routes, withComponentInputBinding, withRouterConfig } from '@angular/router';
+const routes: Routes = [    
+    { path: '**', redirectTo: 'home' } // Wildcard route for unknown paths
+  ];
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
+  providers: [
+    provideRouter(
+      routes,
+      withComponentInputBinding(),
+      withRouterConfig({
+        paramsInheritanceStrategy: 'always',
+      })
+    ),
+  ],
+  //providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
 };

@@ -1,0 +1,497 @@
+<div class="progress mb-4">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0"
+    aria-valuemax="100"></div>
+</div>
+<div class="row">
+  <!-- Earnings (Monthly) Card Example -->
+  <div class="col-xl-3 col-md-3  col-sm-3 mb-4">
+    <div class="card border-left-danger shadow">
+      <div class="card-body">
+        <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+              Basic Info</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+          </div>
+          <div class="col-auto">
+            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Earnings (Annual) Card Example -->
+  <div class="col-xl-3 col-md-3  col-sm-3 mb-4">
+    <div class="card border-left-danger shadow">
+      <div class="card-body">
+        <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+              Personal Details</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+          </div>
+          <div class="col-auto">
+            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tasks Card Example -->
+  <div class="col-xl-3 col-md-3  col-sm-3 mb-4">
+    <div class="card border-left-danger shadow">
+      <div class="card-body">
+        <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Family Details
+            </div>
+            <div class="row no-gutters align-items-center">
+              <div class="col-auto">
+                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+              </div>
+              <div class="col">
+                <div class="progress progress-sm mr-2">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pending Requests Card Example -->
+  <div class="col-xl-3 col-md-3  col-sm-3 mb-4">
+    <div class="card border-left-danger shadow">
+      <div class="card-body">
+        <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+              Partners Preferencde</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+          </div>
+          <div class="col-auto">
+            <i class="fas fa-comments fa-2x text-gray-300"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12 mb-4">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary-nikah">Complete your basic details to contact members you
+          like and
+          to receive interests.
+        </h6>
+      </div>
+      <div class="card-body">
+        <form id="basic_details" class="form-default" role="form" style="margin-bottom:5px;">
+
+          <div class="row">
+
+            <div class="col-md-6 col-md-offset-3" hidden="">
+              <span class="hide-sm" style="color:red;font-size:15px; float:right">(⁎) Mandatory Fields</span>
+              <span class="hide-lg" style="color:red;font-size:14px; float:right;margin-bottom:-20px;">(⁎)
+                Mandatory Fields</span>
+            </div>
+            <div class="clear"></div>
+
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="form-label">Groom Name<span style="color:#ff534f;font-size:17px;">⁎ </span></label>
+                <input type="text" name="name" id="name" class="form-control name require" value="">
+                <div class="name-error" style="color:#ff534f;font-weight:600;"></div>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="clear"></div>
+
+
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="form-label">Date of Birth<span style="color:#ff534f;font-size:17px;">⁎
+                  </span></label>
+                <div class="clear"></div>
+                <select name="day" class="form-control require day" style="width:25%;float:left;height:37px !important;"
+                  required="">
+                  <option value="" hidden="">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+
+                </select>
+
+                <select name="month" class="form-control require month" style="width:25%; float:left;margin:0 5%;"
+                  required="">
+                  <option value="" hidden="">Month</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+
+                </select>
+                <select name="year" class="form-control require" style="width:40%;" required="">
+                  <option value="" hidden="">Year</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+                  <option value="1989">1989</option>
+                  <option value="1988">1988</option>
+                  <option value="1987">1987</option>
+                  <option value="1986">1986</option>
+                  <option value="1985">1985</option>
+                  <option value="1984">1984</option>
+                  <option value="1983">1983</option>
+                  <option value="1982">1982</option>
+                  <option value="1981">1981</option>
+                  <option value="1980">1980</option>
+                  <option value="1979">1979</option>
+                  <option value="1978">1978</option>
+                  <option value="1977">1977</option>
+                  <option value="1976">1976</option>
+                  <option value="1975">1975</option>
+                  <option value="1974">1974</option>
+                  <option value="1973">1973</option>
+                  <option value="1972">1972</option>
+                  <option value="1971">1971</option>
+                  <option value="1970">1970</option>
+                  <option value="1969">1969</option>
+                  <option value="1968">1968</option>
+                  <option value="1967">1967</option>
+                  <option value="1966">1966</option>
+                  <option value="1965">1965</option>
+                  <option value="1964">1964</option>
+                  <option value="1963">1963</option>
+                  <option value="1962">1962</option>
+                  <option value="1961">1961</option>
+                  <option value="1960">1960</option>
+                  <option value="1959">1959</option>
+                  <option value="1958">1958</option>
+                  <option value="1957">1957</option>
+                  <option value="1956">1956</option>
+                  <option value="1955">1955</option>
+                  <option value="1954">1954</option>
+                  <option value="1953">1953</option>
+                  <option value="1952">1952</option>
+                  <option value="1951">1951</option>
+                  <option value="1950">1950</option>
+                  <option value="1949">1949</option>
+                  <option value="1948">1948</option>
+                  <option value="1947">1947</option>
+
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="clear"></div>
+
+
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">Marital Status<span style="color:#ff534f;font-size:17px;">⁎
+                  </span></label>
+                <select name="marital_status" id="marital_status" class="form-control require ">
+                  <option value="" hidden=""> Please select a value</option>
+                  <option value="1">Never Married</option>
+                  <option value="3">Divorced </option>
+                  <option value="4">Separated </option>
+                  <option value="5">Widowed</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+
+            <div id="child1_accept" style="display:none">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="form-label">Number of Child<span style="color:#ff534f;font-size:17px;">⁎
+                    </span></label>
+                  <select name="child_accept" class="form-control" id="child_accept">
+                    <option value="" hidden="" selected=""> Please select a value </option>
+                    <option value="0" selected=""> None </option>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 4+ </option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">Sect<span style="color:#ff534f;font-size:17px;">⁎ </span></label>
+                <select name="sub_caste" id="sub-caste" class="form-control require ">
+                  <option value="" hidden=""> Please select a value</option>
+                  <option value="1"> Shia</option>
+                  <option value="2"> Sunni</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">Caste<span style="color:#ff534f;font-size:17px;">⁎ </span></label>
+                <select name="caste" id="caste" class="form-control require ">
+                  <option value="" hidden=""> Please select a value</option>
+                  <option value="88">Aarab</option>
+                  <option value="86">Aarzal</option>
+                  <option value="87">Aayanavar</option>
+                  <option value="5">Ansari</option>
+                  <option value="67">Bagban or Baghban</option>
+                  <option value="58">Barbhuiya</option>
+                  <option value="84">Beigh</option>
+                  <option value="51">Bhat</option>
+                  <option value="60">Chhipa</option>
+                  <option value="75">Dar</option>
+                  <option value="56">Deccanis or Deccani</option>
+                  <option value="65">Dudekula</option>
+                  <option value="57">Gada/Gour</option>
+                  <option value="12">Gaddi</option>
+                  <option value="78">Ganai</option>
+                  <option value="14">Idrisi</option>
+                  <option value="49">Kalal (Iraqi)</option>
+                  <option value="15">Khan or Pathan</option>
+                  <option value="69">Konkani</option>
+                  <option value="55">Labbai</option>
+                  <option value="66">Ladaf or Nadaf</option>
+                  <option value="61">Lohar</option>
+                  <option value="77">Lone</option>
+                  <option value="18">Malik</option>
+                  <option value="72">Manihars</option>
+                  <option value="19">Mansoori</option>
+                  <option value="20">Memon</option>
+                  <option value="21">Mewati</option>
+                  <option value="74">Mir</option>
+                  <option value="63">Modh Ghanchi</option>
+                  <option value="22">Mughal</option>
+                  <option value="71">Mujawar</option>
+                  <option value="8">Muslim Choudhary</option>
+                  <option value="81">Najars</option>
+                  <option value="100">No Caste</option>
+                  <option value="44">Other</option>
+                  <option value="82">Parray</option>
+                  <option value="64">Patel</option>
+                  <option value="68">Pinjara</option>
+                  <option value="73">Qazi</option>
+                  <option value="29">Quraishi</option>
+                  <option value="23">Rajput / Chauhan / Thakur</option>
+                  <option value="59">Rangrez</option>
+                  <option value="79">Rather</option>
+                  <option value="48">Rayeen</option>
+                  <option value="85">Reshi</option>
+                  <option value="54">Rowther</option>
+                  <option value="32">Saifi</option>
+                  <option value="33">Salmani</option>
+                  <option value="52">Shah</option>
+                  <option value="34">Shams or Shamsi</option>
+                  <option value="35">Sheikh or Shaikh</option>
+                  <option value="36">Siddique</option>
+                  <option value="80">Sofis</option>
+                  <option value="39">Syed</option>
+                  <option value="70">Tamboli</option>
+                  <option value="83">Tantray</option>
+                  <option value="40">Turq or Turk</option>
+                  <option value="41">Tyagi</option>
+                  <option value="62">Vohra</option>
+                  <option value="76">Wani</option>
+                </select>
+
+                <p class="nobottommargin no_caste_text" style="margin-left: 8px; display: none;"><b>No caste
+                    barriers ( match with any caste )</b></p>
+                <div class="help-block with-errors"></div>
+
+              </div>
+            </div>
+            <div class="clear"></div>
+
+
+
+            <div id="other_caste" style="display:none">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="form-label">Other caste detail<span style="color:#ff534f;font-size:17px;">⁎
+                    </span></label>
+                  <input type="text" class="form-control" name="othercaste" id="othercaste" value="">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">Mother Tounge<span style="color:#ff534f;font-size:17px;">⁎
+                  </span></label>
+                <select name="language" id="language" class="form-control require ">
+                  <option value="" hidden=""> Please select a value</option>
+                  <option value="2">Hindi / Urdu</option>
+                  <option value="4">Angika</option>
+                  <option value="5">Arabic</option>
+                  <option value="6">Arunachali</option>
+                  <option value="7">Assamese</option>
+                  <option value="8">Awadhi</option>
+                  <option value="9">Badaga</option>
+                  <option value="10">Bengali</option>
+                  <option value="11">Bhojpuri</option>
+                  <option value="12">Bihari</option>
+                  <option value="13">Brij</option>
+                  <option value="14">Chatisgarhi</option>
+                  <option value="15">Coorgi</option>
+                  <option value="16">Dogri</option>
+                  <option value="17">French</option>
+                  <option value="18">Garhwali</option>
+                  <option value="19">Garo</option>
+                  <option value="20">Gujarati</option>
+                  <option value="21">Haryanvi</option>
+                  <option value="22">Himachali</option>
+                  <option value="23">Himachali/Pahari</option>
+                  <option value="24">Kanauji</option>
+                  <option value="25">Kannada</option>
+                  <option value="26">Kashmiri</option>
+                  <option value="27">Khandesi</option>
+                  <option value="28">Khasi</option>
+                  <option value="29">Konkani</option>
+                  <option value="30">Koshali</option>
+                  <option value="31">Kumaoni</option>
+                  <option value="32">Kutchi</option>
+                  <option value="33">Ladacki</option>
+                  <option value="34">Lepcha</option>
+                  <option value="35">Magahi</option>
+                  <option value="36">Maithili</option>
+                  <option value="37">Malay</option>
+                  <option value="38">Malayalam</option>
+                  <option value="39">Manipuri</option>
+                  <option value="40">Marathi</option>
+                  <option value="41">Marwari</option>
+                  <option value="42">Miji</option>
+                  <option value="43">Miza</option>
+                  <option value="44">Monpa</option>
+                  <option value="45">Nepali</option>
+                  <option value="46">Nicobarese</option>
+                  <option value="47">Oriya</option>
+                  <option value="48">Pashto</option>
+                  <option value="49">Persian</option>
+                  <option value="50">Punjabi</option>
+                  <option value="51">Rajasthani</option>
+                  <option value="52">Russian</option>
+                  <option value="53">Sanskrit</option>
+                  <option value="54">Santhali</option>
+                  <option value="55">Sindhi</option>
+                  <option value="56">Sinhala</option>
+                  <option value="57">Sourashtra</option>
+                  <option value="58">Spanish</option>
+                  <option value="59">Tamil</option>
+                  <option value="60">Telugu</option>
+                  <option value="61">Tripuri</option>
+                  <option value="62">Tulu</option>
+                  <option value="1">English</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="form-label">Height<span style="color:#ff534f;font-size:17px;">⁎ </span></label>
+                <select name="height" id="height" class="form-control height require ">
+                  <option value="" hidden=""> Please select a value</option>
+                  <option value="1">Below 4ft 6in</option>
+                  <option value="2">4ft 6in</option>
+                  <option value="3">4ft 7in</option>
+                  <option value="4">4ft 8in</option>
+                  <option value="5">4ft 9in</option>
+                  <option value="6">4ft 10in</option>
+                  <option value="7">4ft 11in</option>
+                  <option value="8">5ft</option>
+                  <option value="9">5ft 1in</option>
+                  <option value="10">5ft 2in</option>
+                  <option value="11">5ft 3in</option>
+                  <option value="12">5ft 4in</option>
+                  <option value="13">5ft 5in</option>
+                  <option value="14">5ft 6in</option>
+                  <option value="15">5ft 7in</option>
+                  <option value="16">5ft 8in</option>
+                  <option value="17">5ft 9in</option>
+                  <option value="18">5ft 10in</option>
+                  <option value="19">5ft 11in</option>
+                  <option value="20">6ft</option>
+                  <option value="21">6ft 1in</option>
+                  <option value="22">6ft 2in</option>
+                  <option value="23">Above 6ft 2in</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="clear"></div>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>

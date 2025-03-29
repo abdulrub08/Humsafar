@@ -1,14 +1,14 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-import Config from "../assets/configuration/config.json";
+import  { config } from "../app/config";
 export const environment = {
   production: false,
-  apiUrl: Config.HostConfig.filter(x=>x.hostPath==(location.host)) [0].apiUrl+'api/',
-  hideControl: Config.HostConfig.filter(x=>x.hostPath==(location.host))[0].hideControl,
-  homelogoUrl: Config.HostConfig.filter(x=>x.hostPath==(location.host))[0].homelogoUrl,
-  defaultPageUrl: Config.HostConfig.filter(x=>x.hostPath==(location.host))[0].homePageUrl,
-  notificationPath: Config.HostConfig.filter(x=>x.hostPath==(location.host))[0].apiUrl+'notify',
+  apiUrl: config.HostConfig.filter(x=>x.hostPath==(location.host)) [0].apiUrl+'api/',
+  hideControl: config.HostConfig.filter(x=>x.hostPath==(location.host))[0].hideControl,
+  homelogoUrl: config.HostConfig.filter(x=>x.hostPath==(location.host))[0].homelogoUrl,
+  defaultPageUrl: config.HostConfig.filter(x=>x.hostPath==(location.host))[0].homePageUrl,
+  notificationPath: config.HostConfig.filter(x=>x.hostPath==(location.host))[0].apiUrl+'notify',
   blogUrl:'https://blog.talentonlease.com/index.php/wp-json/wp/v2/posts'
 };
 

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { Slide } from '../../../model/app.slide';
-import { NgFor } from '@angular/common';
+import { CommonGenericModule } from '../../../shared/common-generic/common-generic.module';
 
 @Component({
   selector: 'app-slide-banner',
   standalone: true,
-  imports: [NgFor],
+  imports: [CommonGenericModule],
   templateUrl: './slide-banner.component.html',
   styleUrl: './slide-banner.component.css'
 })

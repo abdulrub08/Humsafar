@@ -1,0 +1,34 @@
+<div class="profile-section">
+    <h2 class="profile-title">⭐ Our Best Profiles ⭐</h2>
+<div class="profile-container">
+    <!-- Previous Button -->
+    <button class="prev-btn" (click)="prevPage()" [disabled]="pageIndex === 0">❮</button>
+  
+    <!-- Profile List -->
+    <div class="profile-list">
+      <div *ngFor="let profile of displayedProfiles" class="profile-card">
+        <div class="image-wrapper">
+          <img [src]="profile.image" alt="{{ profile.name }}" class="profile-img">
+          <div class="watermark">Premium</div>
+        </div>
+        <!-- Truncate Name -->
+        <h3>{{ truncateText(profile.name, 15) }}</h3>
+
+        <!-- Truncate Role with "Show More" -->
+        <p class="prof-desig">
+          {{ isExpanded[profile.id] ? profile.role : truncateText(profile.role, 20) }}
+          <span *ngIf="profile.role.length > 20" (click)="toggleExpand(profile.id)" class="show-more">
+            {{ isExpanded[profile.id] ? 'Show Less' : 'Show More' }}
+          </span>
+        </p>
+        <p title="{{profile.age}} | Location: {{profile.location}}">Age: {{truncateText(profile.age,5)}} | Location: {{truncateText(profile.location,5)}}</p>
+        <button class="profile-button">View Profile</button> 
+      </div>
+    </div>
+    
+    <!-- Next Button -->
+    <button class="next-btn" (click)="nextPage()" [disabled]="(pageIndex + 1) * itemsPerPage >= profiles.length">❯</button>
+  </div>
+</div> 
+<app-profile-card></app-profile-card>
+<app-fake></app-fake>

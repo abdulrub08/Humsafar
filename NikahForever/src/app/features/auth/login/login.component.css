@@ -1,23 +1,151 @@
+.form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.mat-mdc-button,.mat-mdc-raised-button{
+  padding: 10px 15%;
+  margin-left: 3.5%;
+  border-radius: 5px;
+}
+.mat-mdc-button{
+  background: red;
+  color: #fff !important;
+}
+.mat-mdc-raised-button {
+  background-color: #f6c23e;
+    background-image: linear-gradient(180deg, #f6c23e 10%, #dda20a 100%);
+    background-size: cover;
+  color: #141414 !important;
+  width: 100%;
+  margin-left: 0 !important;
+}
+.mat-dialog-container {
+  border-radius: 8px;
+}
+
+.mdc-dialog--open .mat-mdc-dialog-surface,
+.mdc-dialog--closing .mat-mdc-dialog-surface,
+.singup-container {
+  padding:20px !important;
+}
+h2{
+  text-align: center;
+  padding: 12px;
+}
+.mat-mdc-dialog-surface {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  outline: 0;
+  transform: scale(0.8);
+  transition: transform var(--mat-dialog-transition-duration, 0ms) cubic-bezier(0, 0, 0.2, 1);
+  max-height: inherit;
+  min-height: inherit;
+  min-width: inherit;
+  max-width: inherit;
+  box-shadow: var(--mat-dialog-container-elevation-shadow, 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12));
+  border-radius: 10px !important;
+  background-color: var(--mdc-dialog-container-color, var(--mat-app-surface, white));
+}
+
+
+.signup-form {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.signup-form h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.signup-form p {
+  margin-bottom: 20px;
+}
+
+.signup-form form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-form .btn {
+  width: 100%;
+  background-color: #e67e22;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form p a {
+  color: #e67e22;
+  text-decoration: none;
+}
+
+.login-btn{
+  background-color: #f6c23e;
+    background-image: linear-gradient(180deg, #f6c23e 10%, #dda20a 100%);
+    background-size: cover;
+    color: #201a1b;
+    border: 1px solid #f6c23e;
+    margin-left: 5%;
+}
 .login-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .google-btn, .facebook-btn {
-    width: 100%;
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .google-btn {
-    background-color: #dd4b39;
-    color: white;
-  }
-  
-  .facebook-btn {
-    background-color: #3b5998;
-    color: white;
-  }
-  
+  text-align: center;
+}
+
+.google-btn, .facebook-btn {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0px 5px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.google-btn {
+  background-color: #dd4b39;
+  background-image: linear-gradient(180deg, #dd4b39 10%, #dc1a00 100%);
+  background-size: cover;
+  border: 1px solid #dd4b39;
+  color: white; 
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  background-image: linear-gradient(180deg, #3b5998 10%, #2859c3 100%);
+  background-size: cover;
+  border: 1px solid #3b5998;
+  color: white;  
+}
+::ng-deep .mat-mdc-dialog-surface {
+  overflow-y: unset !important;
+}
+::ng-deep .mat-mdc-dialog-container {
+  overflow: hidden !important;
+}
+::ng-deep .custom-dialog-login {
+  width: 100% !important;
+}

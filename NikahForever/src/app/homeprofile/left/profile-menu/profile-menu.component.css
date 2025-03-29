@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 30px;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: auto;
+}
+
+.custom-list li {
+    background: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.custom-list li:hover {
+    transform: translateX(5px);
+}
+
+.custom-list i {
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 20px;
+}
