@@ -1,4 +1,7 @@
-<app-header-logout></app-header-logout>
+<app-header-login *ngIf="isLoggedIn; else loggedOutHeader"></app-header-login>
+<ng-template #loggedOutHeader>
+  <app-header-logout></app-header-logout>
+</ng-template>
 <div id="content-wrapper" class="d-flex flex-column">
   <div id="content">
       <router-outlet />

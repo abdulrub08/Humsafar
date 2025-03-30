@@ -1,7 +1,6 @@
-import { Component, NgModule } from '@angular/core';
-import { provideRouter, RouterModule, Routes } from '@angular/router';
-import { LandingComponent } from './general/landing/landing/landing.component';
-import { LoginComponent } from './features/auth/login/login.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { ProfileImgComponent } from './homeprofile/left/profile-img/profile-img.component';
  const routes: Routes = [
     //{ path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: '', 

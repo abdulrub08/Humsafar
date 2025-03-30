@@ -15,9 +15,11 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AuthModule } from './features/auth/auth.module';
 import { FooterComponent } from "./general/bootom/footer/footer.component";
 import { RouterOutlet } from '@angular/router';
+import { TestLandingComponent } from './test/test-landing/test-landing.component';
+import { TestContentModule } from './test/test-content/test-content.module';
 @NgModule({
   declarations: [
-    AppComponent
+   AppComponent, TestLandingComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { RouterOutlet } from '@angular/router';
     GeneralModule,
     HomeProfileModule,
     AdminModule,
+    TestContentModule,
     RouterOutlet,
     HttpClientModule,
     AppRoutingModule,

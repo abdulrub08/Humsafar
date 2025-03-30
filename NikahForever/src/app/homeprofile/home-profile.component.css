@@ -14,5 +14,9 @@
     justify-content: center;
     text-align: center;
   }
-  .container-fluid{margin-top: 6% !important;}
+  .container-fluid{
+    margin-top: 4.3% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
   

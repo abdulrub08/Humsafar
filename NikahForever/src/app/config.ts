@@ -1,7 +1,7 @@
 export const config = {  
     HostConfig: [
           {
-            "hostPath": "localhost:52061",
+            "hostPath": "localhost:60268",
             "subVD": "",
             "apiUrl": "https://humsafar.somee.com/",//"https://localhost:44312/",
             "hideControl": false,

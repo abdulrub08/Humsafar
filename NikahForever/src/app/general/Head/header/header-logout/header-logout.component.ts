@@ -4,12 +4,11 @@ import { AuthService } from '../../../../services/auth.service';
 import { SignupComponent } from '../../../signup/signup.component';
 import { LoginComponent } from '../../../../features/auth/login/login.component';
 import { CommonGenericModule } from '../../../../shared/common-generic/common-generic.module';
-import { ProfileMenuHeadComponent } from '../../../../homeprofile/top/profile-menu-head/profile-menu-head.component';
 
 @Component({
   selector: 'app-header-logout',
   standalone: true,
-  imports: [CommonGenericModule, ProfileMenuHeadComponent],
+  imports: [CommonGenericModule],
   templateUrl: './header-logout.component.html',
   styleUrl: './header-logout.component.css'
 })
@@ -19,9 +18,7 @@ export class HeaderLogoutComponent implements OnInit{
   constructor(private dialog: MatDialog,private authService: AuthService) {
     
   }
-
   ngOnInit(): void {
-    this.isLoggedIn = this.authService.isLoggedIn();
   }
   openSignupDialog() {
     const dialogRef = this.dialog.open(SignupComponent, {

@@ -148,6 +148,13 @@ p {
   pointer-events: none;
 } */
 
+@media (min-width: 300px) and (max-width:750px) {
+  .profile-card {
+    min-width: 190px;
+  }
+
+}
+
 
 
 

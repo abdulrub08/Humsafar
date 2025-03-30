@@ -33,3 +33,18 @@ body {
     margin-right: 10px;
     font-size: 20px;
 }
+
+.bg-gradient-primary {
+    color: white;
+    background-color: #e74a3b;
+    background-image: linear-gradient(90deg, #e72d1b 10%, #89190e 100%);
+    background-size: cover;
+}
+.text-primary {
+    color: white !important;
+}
+.row {
+    margin-right: -1.75rem !important;
+    margin-left: -1.75rem !important;
+}
+

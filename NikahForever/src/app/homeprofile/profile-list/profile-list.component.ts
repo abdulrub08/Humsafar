@@ -14,6 +14,7 @@ import { FakeComponent } from "../fake/fake.component";
 export class ProfileListComponent implements OnInit {
   profiles: any[] = [];
   displayedProfiles: any[] = [];
+  hoverProfile: number | null = null;
   pageIndex: number = 0;
   itemsPerPage: number = 5;
   isExpanded: { [key: number]: boolean } = {}; // Store expanded state for each profile

@@ -8,11 +8,8 @@
         <li><a href="#how-it-works">How it Works</a></li>
         <li><a href="#story">Success Stories</a></li>
         <li><a [routerLink]="['/dashboard']">Dashboard</a></li>
-        <li *ngIf="!isLoggedIn"><button class="cta-button" mat-raised-button color="primary" (click)="openSignupDialog()">Sign Up</button></li>
-        <li *ngIf="!isLoggedIn"><a href="#" (click)="openLoginDialog($event)">Login</a></li>
-        <li *ngIf="isLoggedIn">
-            <app-profile-menu-head></app-profile-menu-head>
-        </li>      
+        <li><button class="cta-button" mat-raised-button color="primary" (click)="openSignupDialog()">Sign Up</button></li>
+        <li><a href="#" (click)="openLoginDialog($event)">Login</a></li>
       </ul>
     </nav>
   </header>
