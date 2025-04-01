@@ -1,0 +1,36 @@
+<div class="card shadow">
+  <div class="card-header py-3">
+    <h6 class="m-0 font-weight-bold text-primary-nikah">Alerts Center </h6>
+  </div>
+  <div class="card-body">
+    <!-- Dropdown - Alerts -->
+    <!-- <div class="message-container">
+      <a class="dropdown-item d-flex align-items-center" href="#" *ngFor="let alert of alerts">
+        <div class="mr-3">
+          <div class="icon-circle bg-warning">
+            <i class="fas fa-exclamation-triangle text-white"></i>
+          </div>
+        </div>
+        <div>
+          <div class="small text-gray-500">{{alert.date}}</div>
+          <span class="font-weight-bold">{{alert.msg}}</span>
+        </div>
+      </a>
+      <a class="dropdown-item text-center small bg-gradient-warning" href="#">Show All Alerts</a>
+      
+    </div> -->
+    <div *ngFor="let alert of alerts.slice(0, 5)" class="message-container">
+      <img [src]="alert.profile_pic_url" [alt]="alert.name" class="profile-pic">
+      <div class="status-indicator2" [ngClass]="alert.status"></div>
+      <div class="message-content">
+        <div class="text-truncate">{{alert.msg}}</div>
+        <div class="small text-gray-500">{{alert.name}} · {{alert.date}}</div>
+        <!-- <h6 style="margin: 0;">{{ message.name }} <span class="date">{{ message.date }}</span></h6>
+            <p style="margin: 0;">{{ message.msg }}</p> -->
+      </div>
+    </div>
+    <div class="read-more-container">
+      <button class="read-more-btn bg-gradient-warning">Read More Messages</button>
+    </div>
+  </div>
+</div>

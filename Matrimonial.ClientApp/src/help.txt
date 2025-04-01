@@ -1,10 +1,10 @@
-// Install Angular CLI and create a new project
-// ng new angular18-clean-arch --routing --style=scss
-// cd angular18-clean-arch
+// Install Angular CLI and create a new project								Update Angular CLI
+// ng new angular18-clean-arch --routing --style=scss							npm update -g @angular/cli
+// cd angular18-clean-arch										ng version
 // ng add @angular/material (Optional UI framework)
-
-// Generate Core and Shared modules
-// ng g m core
+													Use the Correct Angular Version for Your Project
+// Generate Core and Shared modules									npm uninstall -g @angular/cli
+// ng g m core												npm install -g @angular/cli@latest
 // ng g m shared
 
 // Generate Features Modules
@@ -22,3 +22,23 @@
 
 // Generate Auth Guard
 // ng g g core/guards/auth
+
+Generate a Module (Without Standalone)										
+ng generate module routing/admin-routing --flat --module=app									
+ng g m routing/admin-routing --flat --module=app
+
+//Generate a Standalone Component
+ng generate component app/admin/admin-dashboard --standalone
+ng g c app/admin/admin-dashboard --standalone
+
+Generate a Routing Module
+ng g m routing/app-routing --flat --module=app
+
+Example: Full Setup for Routing with Modules
+ng g m routing/admin-routing --flat --module=app
+ng g m routing/user-routing --flat --module=app
+
+ng g c app/admin/admin-dashboard --standalone
+ng g c app/user/user-dashboard --standalone
+ng g c app/home --standalone
+

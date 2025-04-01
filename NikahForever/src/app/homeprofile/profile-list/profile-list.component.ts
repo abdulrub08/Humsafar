@@ -1,13 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileListService } from '../../services/profile-list.service';
 import { CommonModule } from '@angular/common';
-import { ProfileCardComponent } from "../../general/landing/profile-card/profile-card.component";
-import { FakeComponent } from "../fake/fake.component";
 
 @Component({
   selector: 'app-profile-list',
   standalone: true,
-  imports: [CommonModule, ProfileCardComponent, FakeComponent],
+  imports: [CommonModule],
   templateUrl: './profile-list.component.html',
   styleUrl: './profile-list.component.css'
 })

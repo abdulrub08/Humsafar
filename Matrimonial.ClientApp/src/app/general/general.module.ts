@@ -10,20 +10,15 @@ import { LandingComponent } from './landing/landing/landing.component';
 @NgModule({
       declarations: [],
       imports: [
-        GeneralRoutingModule,
         HeaderComponent,
         FooterComponent,
         CommonGenericModule,
         SlideBannerComponent,
         ProfileCardComponent,
         UsersComponent,
-        LandingComponent
+        LandingComponent,
+        GeneralRoutingModule
       ],
-      exports: [GeneralRoutingModule,HeaderComponent,FooterComponent,CommonGenericModule,
-        SlideBannerComponent,
-        ProfileCardComponent,
-        UsersComponent,
-        LandingComponent
-      ]
+      exports: [FooterComponent, HeaderComponent, SlideBannerComponent, ProfileCardComponent, UsersComponent, LandingComponent]
 })
 export class GeneralModule { }

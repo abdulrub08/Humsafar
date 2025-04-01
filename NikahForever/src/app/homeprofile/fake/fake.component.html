@@ -1,5 +1,5 @@
 <div class="profile-container">
-    <h2 class="header">Our Best Profiles</h2>
+    <h2 class="header">Your Recent Activity</h2>
     <div class="carousel">
       <button *ngIf="startIndex > 0" class="prev-btn" (click)="prev()">&#9665;</button>
       <div class="profile-list">
@@ -12,11 +12,7 @@
             <h3>{{ profile.name }}</h3>
             <p>{{ truncate(profile.role, 20) }}</p>
           </div>
-          <div class="dropdown" *ngIf="hoverProfile === profile.id">
-            <a href="#">View Profile</a>
-            <a href="#">Settings</a>
-            <a href="#">Logout</a>
-          </div>
+          <button class="profile-button" *ngIf="hoverProfile === profile.id">View Profile</button>         
         </div>
       </div>
       <button *ngIf="startIndex + 5 < profiles.length" class="next-btn" (click)="next()">&#9655;</button>

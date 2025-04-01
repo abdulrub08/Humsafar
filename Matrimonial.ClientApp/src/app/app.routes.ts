@@ -1,5 +1,4 @@
-import { RouterModule, Routes } from '@angular/router';
-import { NgModule } from '@angular/core';
+import { provideRouter, RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './general/landing/landing/landing.component';
 
 export const routes: Routes = [
@@ -8,8 +7,4 @@ export const routes: Routes = [
   { path: 'dashboard', component: LandingComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }, // Fixed wildcard route
 ];
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+export const AppRoutingModule = provideRouter(routes);

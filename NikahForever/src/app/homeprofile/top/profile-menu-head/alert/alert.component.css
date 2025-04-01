@@ -1,0 +1,16 @@
+
+
+.topbar .dropdown-list .dropdown-header{
+background-color: #fa0a0a;
+    border: 1px solid #fa0a0a;
+}
+.topbar {
+    height: 0rem;
+}
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topbar {
+        height: 2rem;
+    }
+  }

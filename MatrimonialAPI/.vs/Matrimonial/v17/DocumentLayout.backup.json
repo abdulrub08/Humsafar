@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Projects\\Nikah\\MatrimonialAPI\\",
+  "WorkspaceRootPath": "E:\\GitRepositryProject\\Humsafar\\MatrimonialAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|e:\\projects\\nikah\\matrimonialapi\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|solutionrelative:controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|e:\\projects\\nikah\\matrimonialapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|e:\\projects\\nikah\\matrimonialapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|e:\\projects\\nikah\\matrimonialapi\\servicesidentity\\externalserviceslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|solutionrelative:servicesidentity\\externalserviceslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|e:\\gitrepositryproject\\humsafar\\matrimonialapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{620657D2-E0EC-4AAC-B3DA-C00786B964C9}|Matrimonial.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExternalServicesLogin.cs",
-              "DocumentMoniker": "E:\\Projects\\Nikah\\MatrimonialAPI\\ServicesIdentity\\ExternalServicesLogin.cs",
-              "RelativeDocumentMoniker": "ServicesIdentity\\ExternalServicesLogin.cs",
-              "ToolTip": "E:\\Projects\\Nikah\\MatrimonialAPI\\ServicesIdentity\\ExternalServicesLogin.cs",
-              "RelativeToolTip": "ServicesIdentity\\ExternalServicesLogin.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAArwBsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:09:41.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Projects\\Nikah\\MatrimonialAPI\\Controller\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controller\\AuthController.cs",
-              "ToolTip": "E:\\Projects\\Nikah\\MatrimonialAPI\\Controller\\AuthController.cs",
-              "RelativeToolTip": "Controller\\AuthController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAArwEUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:06:30.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Projects\\Nikah\\MatrimonialAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Projects\\Nikah\\MatrimonialAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\GitRepositryProject\\Humsafar\\MatrimonialAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\GitRepositryProject\\Humsafar\\MatrimonialAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T23:49:15.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projects\\Nikah\\MatrimonialAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Projects\\Nikah\\MatrimonialAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:39:23.99Z",
+              "WhenOpened": "2025-03-23T09:49:50.417Z",
               "EditorCaption": ""
             }
           ]

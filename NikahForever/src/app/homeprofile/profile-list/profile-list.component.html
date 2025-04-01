@@ -1,12 +1,13 @@
 <div class="profile-section">
-    <h2 class="profile-title">⭐ Our Best Profiles ⭐</h2>
-<div class="profile-container">
+  <h2 class="profile-title">⭐ Our Best Profiles ⭐</h2>
+  <div class="profile-container">
     <!-- Previous Button -->
     <button class="prev-btn" (click)="prevPage()" [disabled]="pageIndex === 0">&#9665;</button>
-  
+
     <!-- Profile List -->
-    <div class="profile-list row">
-      <div *ngFor="let profile of displayedProfiles" class="profile-card col-sm-12 col-lg-3" (mouseover)="hoverProfile=profile.id" (mouseleave)="hoverProfile=null">
+    <div class="profile-list">
+      <div *ngFor="let profile of displayedProfiles" class="profile-card"
+        (mouseover)="hoverProfile=profile.id" (mouseleave)="hoverProfile=null">
         <div class="image-wrapper">
           <img [src]="profile.image" alt="{{ profile.name }}" class="profile-img">
           <div class="watermark">Premium</div>
@@ -21,14 +22,14 @@
             {{ isExpanded[profile.id] ? 'Show Less' : 'Show More' }}
           </span>
         </p>
-        <p title="{{profile.age}} | Location: {{profile.location}}">Age: {{truncateText(profile.age,5)}} | Location: {{truncateText(profile.location,5)}}</p>
-        <button class="profile-button" *ngIf="hoverProfile === profile.id" >View Profile</button> 
+        <p title="{{profile.age}} | Location: {{profile.location}}">Age: {{truncateText(profile.age,5)}} | Location:
+          {{truncateText(profile.location,5)}}</p>
+        <button class="profile-button" *ngIf="hoverProfile === profile.id">View Profile</button>
       </div>
     </div>
-    
+
     <!-- Next Button -->
-    <button class="next-btn" (click)="nextPage()" [disabled]="(pageIndex + 1) * itemsPerPage >= profiles.length">&#9655;</button>
+    <button class="next-btn" (click)="nextPage()"
+      [disabled]="(pageIndex + 1) * itemsPerPage >= profiles.length">&#9655;</button>
   </div>
-</div> 
-<app-profile-card></app-profile-card>
-<app-fake></app-fake>
+</div>

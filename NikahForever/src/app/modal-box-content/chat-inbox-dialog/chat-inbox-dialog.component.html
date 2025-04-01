@@ -1,0 +1,47 @@
+<div class="card shadow">
+    <div class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary-nikah">Message Center </h6>
+    </div>
+    <div class="card-body">
+      <!-- Dropdown - Alerts -->
+      <!-- <div class="dropdown-list">
+        <a class="dropdown-item d-flex align-items-center" href="#" *ngFor="let msg of inboxMsgs.slice(0,5)">
+            <div class="dropdown-list-image mr-3">
+              <img [src]="msg.profile_pic_url" alt="{{ msg.name }}" class="rounded-circle">
+              <div class="status-indicator" [ngClass]="msg.status"></div>
+            </div>
+            <div class="font-weight-bold">
+              <div class="text-truncate">{{msg.msg}}</div>
+              <div class="small text-gray-500">{{msg.name}} · {{msg.date}}</div>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+      </div> -->
+      <!-- <div *ngFor="let message of inboxMsgs" class="message-container">
+        <img [src]="message.profile_pic_url" [alt]="message.name" class="profile-pic">
+        <div class="status-indicator" [ngClass]="message.status"></div>
+        <div class="message-content">
+          <h4>{{ message.name }}</h4>
+          <p>{{ message.msg }}</p>
+          <span class="date">{{ message.date }}</span>
+        </div>
+      </div> -->
+      <div *ngFor="let message of (showAllMessages ? inboxMsgs : inboxMsgs.slice(0, 5))" class="message-container">
+        <img [src]="message.profile_pic_url" [alt]="message.name" class="profile-pic">
+        <div class="status-indicator2" [ngClass]="message.status"></div>
+        <div class="message-content">
+            <div class="text-truncate">{{message.msg}}</div>
+            <div class="small text-gray-500">{{message.name}} · {{message.date}}</div>
+          <!-- <h6 style="margin: 0;">{{ message.name }} <span class="date">{{ message.date }}</span></h6>
+          <p style="margin: 0;">{{ message.msg }}</p> -->
+        </div>
+      </div>
+      
+      <!-- "Read More Messages" button -->
+      <!-- <a *ngIf="!showAllMessages" class="dropdown-item text-center small text-gray-500" href="#" (click)="toggleMessages()">Read More Messages</a> -->
+      <div *ngIf="!showAllMessages" class="read-more-container">
+        <button (click)="toggleMessages()" class="read-more-btn bg-gradient-warning">Read More Messages</button>
+      </div>
+    </div>
+  </div>
+

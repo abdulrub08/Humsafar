@@ -10,11 +10,26 @@
     .prev-btn, .next-btn { cursor: pointer; background: none; border: none; font-size: 20px; } */
 
 
-    .profile-container { text-align: center; }
+    .profile-container { 
+        text-align: center;
+        border-radius: 10px;
+    box-shadow: inset 10px 10px 50px rgba(106, 105, 105, 0), 0 0 20px rgb(18 18 18 / 15%), 0 0 100px rgb(41 40 40 / 2%);
+    border-bottom: 0.25rem solid #e74a3b !important;
+    padding: 40px 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 20px;
+     }
     .header { margin-bottom: 15px; }
     .carousel { display: flex; align-items: center; justify-content: center; }
     .profile-list { display: flex; gap: 10px; overflow: hidden; }
-    .profile-card { position: relative; text-align: center; }
+    .profile-card { 
+        position: relative; text-align: center; 
+        background-size: cover;
+    color: #7c7a7a !important;
+    border: 1px solid #e74a3b;
+    display: block;
+    }
     .image-wrapper { position: relative; display: inline-block; }
     .profile-img { width: 80px; height: 80px; border-radius: 50%; }
     .rotated-img { transform: rotate(-5deg); }

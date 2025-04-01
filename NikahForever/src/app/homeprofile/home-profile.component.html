@@ -1,11 +1,14 @@
-
-<div class="container-fluid">
+ <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-2">
-        <app-profile-menu></app-profile-menu>
+      <div class="container-col" id="columnContainer">
+        <div class="column left">
+          <app-profile-menu></app-profile-menu>
+        </div>
+        <div class="column right">
+          <app-cat-wise-profiles></app-cat-wise-profiles>          
+          <app-profile-card></app-profile-card>
+          <app-fake></app-fake>
+        </div>
       </div>
-      <div class="col-lg-10">
-      <app-cat-wise-profiles></app-cat-wise-profiles>
-    </div>
     </div>
 </div>

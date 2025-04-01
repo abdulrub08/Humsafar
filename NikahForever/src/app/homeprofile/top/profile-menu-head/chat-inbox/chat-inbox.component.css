@@ -1,0 +1,9 @@
+.topbar {
+    height: 0rem;
+}
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topbar {
+        height: 2rem;
+    }
+  }

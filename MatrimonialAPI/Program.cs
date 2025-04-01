@@ -42,7 +42,7 @@ builder.Services.AddSwaggerWithJWTSupport();
 #region Middleware Configure
 var app = builder.Build();
 
-//app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<ExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())

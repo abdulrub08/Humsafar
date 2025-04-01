@@ -1,20 +1,26 @@
 <header class="header background-3d" id="home">
-    <h1>Matrimonial Connect</h1>
-    <nav class="nav">
-      <button class="menu-toggle">☰</button>
-      <ul>
-        <li><a>Home</a></li>
-        <li><a>Activities</a></li> 
-        <li><a>Messages</a></li>
-        <li><a>Search</a></li>
-        <li><a>Home</a></li>
-        <li><a>GO Premium</a></li> 
-        <li><a>Help</a></li>
-        <li><a>Alert</a></li>
-        <li><a>Inbox</a></li>
-        <li>
-            <app-profile-menu-head></app-profile-menu-head>
-        </li>      
-      </ul>
-    </nav>
-  </header>
+  <h1>Matrimonial Connect</h1>
+  <nav class="nav">
+    <button class="menu-toggle"  (click)="toggleMenu()">☰</button>
+    <ul [class.show]="isMenuOpen">
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#">Activities</a></li>
+      <li><a class="nav-link" href="#"><i class="fas fa-comments">&nbsp;<span style="font-family: roboto, sans-serif;font-size: 16px;">Messages</span></i></a></li>
+      <li><a class="nav-link" href="#">Search</a></li>
+      <li><a class="nav-link" href="#">GO Premium</a></li>
+      <li><a class="nav-link" href="#">Help</a></li>
+      <!-- Nav Item - Alerts -->
+      <li>
+        <app-alert></app-alert>
+      </li>
+      <!-- Nav Item - Messages -->
+      <li>
+        <app-chat-inbox></app-chat-inbox>
+      </li>
+      <li>
+        <app-user-login-pic></app-user-login-pic>
+        <!-- <app-profile-menu-head></app-profile-menu-head> -->
+      </li>
+    </ul>
+  </nav>
+</header>

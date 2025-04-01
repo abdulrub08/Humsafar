@@ -1,0 +1,37 @@
+<div class="relative profile-menu-container">
+    <!-- Profile Image -->
+    <div
+      class="rounded-full cursor-pointer"
+      (mouseenter)="showMenu()"
+    >
+      <img
+        src="../../../../assets/img/profileicon.png"
+        alt="Profile"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  
+    <!-- Dropdown Menu -->
+    <div
+      *ngIf="isMenuVisible"
+      class="absolute right-0 mt-2 w-48 bg-white border border-gray-300 shadow-lg rounded-lg"
+      (mouseleave)="hideMenu()"
+    >
+      <ul>
+      
+        <li class="hover:bg-gray-100 cursor-pointer" (click)="goToAccount()"><i
+            class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Profile</li>
+        <li class="hover:bg-gray-100 cursor-pointer" (click)="goToSettings()"><i
+            class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>Settings</li>
+        <li class="hover:bg-gray-100 cursor-pointer" (click)="goToAccount()"><i
+            class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>Activity Log</li>
+        <li class="hover:bg-gray-100 cursor-pointer" (click)="goToAccount()"><i
+            class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Account</li>
+        <div class="dropdown-divider"></div>
+        <li class="hover:bg-red-100 text-red-500 cursor-pointer" (click)="logout()"><i
+            class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</li>
+      </ul>
+    </div>
+  </div>
+
+  
