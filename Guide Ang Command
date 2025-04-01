@@ -23,3 +23,6 @@ Angular Command
 
 // Generate Auth Guard
 // ng g g core/guards/auth
+
+//Run the Production Build Command
+//ng build --configuration=production
